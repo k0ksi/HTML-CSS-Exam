@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+    font-family: Tahoma,Helvetica,sans-serif;
+}
+#wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+ul{
+    background: rgb(56,68,82);
+    width: 1000px;
+}
+ul img{
+    display: inline-block;
+}
+ul li{
+    position: relative;
+    bottom: 27px;
+    display: inline-block;
+    right: 15px;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+ul a{
+    text-decoration: none;
+    display: table-cell;
+    color: rgb(158,164,190);
+}
+#first-tab{
+    background: rgb(59,188,150);
+}
+#first-li{
+    color: #ffffff;
+}
+section{
+    background: rgb(238,238,238);
+    height: 275px;
+    box-sizing: border-box;
+    padding: 35px 30px 30px 30px;
+    padding-top: 0px;
+}
+.row{
+    width: 1000px;
+}
+form p{
+    color: rgb(66,68,80);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.element{
+    margin-top: 35px;
+    display: inline-block;
+    margin-right: 30px;
+}
+input{
+    font-size: 14px;
+    width: 210px;
+    height: 48px;
+    border: 1px solid rgb(204,204,204);
+    box-sizing: border-box;
+    padding-left: 13px;
+}
+button{
+    height: 49px;
+    width: 212px;
+    position: relative;
+    bottom: 2px;
+    border: none;
+    color: #ffffff;
+    background: rgb(59,188,150);
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(56,68,82);
+    box-sizing: border-box;
+    border: 1px solid rgb(181,184,189);
+    color: rgb(253,254,233);
+}

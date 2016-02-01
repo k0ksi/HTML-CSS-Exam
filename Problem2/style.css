@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oleo Script'), local('OleoScript-Regular'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjobN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+#wrapper{
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 12px;
+    width: 1000px;
+    margin: 0 auto;
+}
+#wrapper>header h1{
+    font-size: 68px;
+    font-family: "Oleo Script";
+    color: #ffffff;
+    text-align: center;
+}
+
+header{
+    background: url('resources/orion-gas-and-star-bgr.jpg');
+    width: 1000px;
+    padding-top: 15px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    border-bottom: 10px solid rgb(57,163,211);
+}
+nav{
+    width: 485px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+nav li{
+    color: rgb(78,37,141);
+    margin-right: 10px;
+    width: 105px;
+    height: 50px;
+    display: inline-block;
+    background: #ffffff;
+    padding-top: 14px;
+    box-sizing: border-box;
+}
+nav li:hover{
+    color: rgb(252,254,255);
+    background: rgb(54,164,213);
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+#subtitle{
+    font-size: 26px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    margin-bottom: 25px;
+}
+body{
+    background: rgb(80,36,125);
+}
+#content{
+    border-top: 10px solid rgb(134,90,179);
+    border-bottom: 10px solid rgb(53,164,217);
+    background: rgb(234,231,238);
+    padding: 35px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+#left-side{
+    width: 455px;
+    height: 492px;
+    background: #ffffff;
+    padding: 30px;
+    padding-top: 0;
+    padding-bottom: 0px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    margin-right: 30px;
+    display: inline-block;
+}
+article h1{
+    font-size: 48px;
+    font-family: "Oleo Script";
+    margin: 0 auto;
+    color: rgb(33,21,41);
+}
+#left-side .par{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Calibri;
+}
+strong{
+    font-family: "Oleo Script";
+    font-weight: 500;
+}
+#article-subtitle{
+    color: rgb(33,21,41);
+    font-size: 28px;
+    position: relative;
+    bottom: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#article-left-bottom{
+    width: 278px;
+    height: 37px;
+    border: 1px solid rgb(134,90,179);
+    background: rgb(134,90,179);
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+    left: 147px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+#article-left-bottom:hover{
+    border: 1px solid rgb(192,172,207);
+    background: rgb(82,35,129);
+    font-size: 15px;
+}
+#left-side:before{
+    content: "READ MORE";
+    color: #ffffff;
+    cursor: pointer;
+    width: 110px;
+    height: 33px;
+    background: rgb(52,164,212);
+    font-size: 14px;
+    padding: 7px 20px;
+    box-sizing: border-box;
+    position: relative;
+    top: 7px;
+    left: 315px;
+}
+a{
+    text-decoration: none;
+}
+#right-side{
+    display: inline-block;
+    width: 451px;
+    height: 466px;
+    vertical-align: top;
+    position: relative;
+    bottom: 17px;
+}
+.small-article{
+    width: 201px;
+    display: inline-block;
+    margin-right: 23px;
+}
+.small-article h4{
+    padding-top: 9px;
+    position: relative;
+    bottom: 3px;
+    background: #ffffff;
+    padding-left: 13px;
+    color: rgb(55,167,217);
+    font-size: 16px;
+    font-weight: bold;
+}
+.small-article p{
+    padding-bottom: 16px;
+    font-size: 13px;
+    padding-top: 9px;
+    padding-left: 13px;
+    position: relative;
+    bottom: 3px;
+    margin-bottom: 0px;
+    background-color: #ffffff;
+}
+.small-article:before{
+    content: "READ MORE";
+    color: #ffffff;
+    cursor: pointer;
+    width: 110px;
+    height: 33px;
+    background: rgb(52,164,212);
+    font-size: 14px;
+    padding: 7px 20px;
+    box-sizing: border-box;
+    position: relative;
+    top: 24px;
+    left: 90px;
+}
+footer{
+    box-sizing: border-box;
+    display: table-cell;
+    vertical-align: middle;
+    color: #ffffff;
+    font-size: 14px;
+    padding-left: 17px;
+    height: 80px;
+}

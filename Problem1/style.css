@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding-top: 15px;
+}
+header, .element{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+button{
+    font-size: 10px;
+    width: 160px;
+    height: 38px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 3px;
+    background: rgb(221,221,221);
+    color: rgb(97,104,96);
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+header{
+    width: 770px;
+    margin: 0 auto;
+    background: rgb(221,221,221);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+header h1{
+    font-size: 30px;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px #fff;
+    text-align: center;
+    color: rgb(148,112,222);
+    font-weight: 500;
+}
+.element{
+    width: 179px;
+    height: 257px;
+    background: rgb(238,238,238);
+    display: inline-block;
+    margin-right: 10px;
+    padding-top: 7px;
+    border-radius: 15px;
+    padding-left: 7px;
+    box-sizing: border-box;
+}
+.element:nth-child(2){
+    margin-left: 22px;
+}
+a{
+    text-decoration: none;
+}
+.circle{
+    width: 164px;
+    height: 164px;
+    border-radius: 50%;
+    background: rgb(148,112,220);
+    font-size: 76px;
+    font-weight: bold;
+    color: rgb(239,239,237);
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+.circle:hover{
+    background: #ffffff;
+    color: rgb(148,112,220);
+}
+.element p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(164,165,167);
+}
+button:hover{
+    background: rgb(255,255,255);
+    color: rgb(103,112,145);
+}
